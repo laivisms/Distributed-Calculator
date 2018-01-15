@@ -1,0 +1,21 @@
+insert two 2
+insert three 3
+insert four 4
+insert five 5
+insert six 6
+insert seven 7
+insert eight 8
+insert ten 10
+insert n-one -1
+
+retrieve ten
+retrieve eight
+
+delete eight
+delete seven
+delete six
+
+calculate / five two three
+calculate + two three five
+calculate * three ten n-one
+calculate - four two four
