@@ -61,5 +61,5 @@ The Distributed Calculator application. Implements a distributed system which pe
                   -The master posts the answer as a node named the task's number, under the ./status folder, with the answer as the
                     nodes data
                       -The answer is the request of the client repeated, except all keys are translated to values, and 
-                        "Result: " + result is appended to the end
+                        "Result: " is appended to the beginning.
                   
