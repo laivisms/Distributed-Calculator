@@ -49,7 +49,7 @@ The Distributed Calculator application. Implements a distributed system which pe
                         -if CALCULATE task, split the task up into subtasks of 1 or more keys each to be sent to the workers 
                           which contain those keys
                   -The Master send the tasks to the determined workers by posting them in the workers folder under ./assign
-                  -The Worker sends the task to its WorkerLogicHandler, storing and retrieves/stores information in its WorkerData
+                  -The Worker sends the task to its WorkerLogicHandler and retrieves/stores information in its WorkerData
                     object as needed.
                   -The Worker sends the result to the Master by creating a node named the task's name under ./completed, 
                     with the answer as the nodes data
